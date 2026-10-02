@@ -1,0 +1,188 @@
+/* MUSCLE MOMMY GLOBAL STYLES */
+
+body {
+    margin: 0;
+    padding: 0;
+    background-color: #1d1d1d;
+    color: white;
+    font-family: "Times New Roman", serif;
+}
+
+/* HEADER */
+
+h1 {
+    color: #f893d0;
+    text-align: center;
+    font-size: 3rem;
+    text-transform: uppercase;
+    margin-top: 40px;
+}
+
+h2 {
+    color: white;
+    text-align: center;
+    text-transform: uppercase;
+    font-size: 2.5rem;
+}
+
+h3 {
+    color: #f893d0;
+    text-align: center;
+}
+
+/* PARAGRAPHS */
+
+p {
+    text-align: center;
+    max-width: 900px;
+    margin: auto;
+    line-height: 1.8;
+    padding: 10px;
+}
+
+/* BUTTONS */
+
+.btn {
+    background: #f893d0;
+    color: white;
+    padding: 15px 30px;
+    border-radius: 30px;
+    text-decoration: none;
+    display: inline-block;
+    margin-top: 20px;
+    font-weight: bold;
+}
+
+.btn:hover {
+    background: #ff6fc4;
+}
+
+/* HERO IMAGE */
+
+.hero-img {
+    width: 100%;
+    max-height: 700px;
+    object-fit: cover;
+}
+
+/* PHOTO ROW */
+
+.photo-row {
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    flex-wrap: wrap;
+    margin: 50px 0;
+}
+
+.round-photo {
+    width: 220px;
+    height: 220px;
+    object-fit: cover;
+    border-radius: 50%;
+    border: 4px solid #f893d0;
+    box-shadow: 0 0 20px rgba(248,147,208,.4);
+}
+
+/* PRICING */
+
+.phase-price {
+    text-align: center;
+    font-size: 1.5rem;
+    color: #f893d0;
+    font-weight: bold;
+}
+
+/* CONTACT */
+
+.contact-info {
+    text-align: center;
+    color: #f893d0;
+    padding: 20px;
+}
+
+/* FOOTER */
+
+footer {
+    text-align: center;
+    padding: 30px;
+    margin-top: 50px;
+    background-color: #111;
+}
+/* ABOUT PAGE */
+
+.about-container {
+    max-width: 1000px;
+    margin: auto;
+    padding: 40px;
+}
+
+.about-text {
+    font-size: 20px;
+    line-height: 1.9;
+    text-align: center;
+    color: white;
+}
+
+/* CONTACT SECTION */
+
+form {
+    max-width: 600px;
+    margin: 40px auto;
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+label {
+    color: #f893d0;
+    font-weight: bold;
+    text-align: left;
+}
+
+input,
+textarea {
+    padding: 12px;
+    border-radius: 10px;
+    border: 2px solid #f893d0;
+    background-color: #2c2c2c;
+    color: white;
+    font-size: 16px;
+}
+
+button {
+    background-color: #f893d0;
+    color: white;
+    border: none;
+    padding: 15px;
+    font-size: 18px;
+    font-weight: bold;
+    border-radius: 30px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #ff6fc4;
+}
+
+/* REACH OUT HEADER */
+
+h2 {
+    color: #f893d0;
+    margin-top: 60px;
+}
+.recipe-image {
+    display: block;
+    margin: 30px auto;
+    width: 450px;
+    max-width: 90%;
+    border-radius: 20px;
+    border: 4px solid #f893d0;
+    box-shadow: 0 0 20px rgba(248,147,208,0.4);
+}
+
+.logo-image {
+    display: block;
+    margin: 20px auto;
+    width: 250px;
+}

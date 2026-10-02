@@ -1,0 +1,32 @@
+
+
+<!DOCTYPE html>
+
+<body>
+
+<h2>Favorite Color Data</h2>
+
+<p>Choose your favorite color:</p>
+
+<form id="colorForm">
+    <input type="radio" id="lightpink" name="fav_color" value="LightPink">
+    <label for="lightpink">Light Pink</label><br>
+
+    <input type="radio" id="magenta" name="fav_color" value="Magenta">
+    <label for="magenta">Magenta</label><br>
+
+    <input type="radio" id="pastelMagenta" name="fav_color" value="#f080c0">
+    <label for="pastelMagenta">Pastel Magenta</label><br><br>
+
+
+    <button type="button" onclick="showColor()">Submit</button>
+</form>
+
+<svg width="150" height="150">
+    <circle id="colorCircle" cx="75" cy="75" r="60" fill="lightgray"></circle>
+</svg>
+
+<p id="resultText">You chose: (no color yet)</p>
+
+<script src="color.js"></script>
+</body>
